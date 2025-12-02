@@ -1,0 +1,13 @@
+Microsserviços são uma forma moderna de construir sistemas dividindo a aplicação em vários pedacinhos independentes — cada um fazendo bem uma única coisa. É como montar um time onde cada jogador tem uma função clara, e se alguém tropeçar, o jogo continua.
+
+Na arquitetura monolítica, tudo fica junto e misturado em um único bloco: código, regras, funcionalidades e geralmente um único banco de dados. Já na arquitetura de microsserviços, cada funcionalidade vira um serviço separado, podendo até ter seu próprio banco e evoluir no seu próprio ritmo.
+
+Entre os principais benefícios desse modelo estão:
+
+Independência entre serviços — se um falhar, não derruba o resto.
+
+Escalabilidade — você aumenta só o que precisa, sem inflar o sistema inteiro.
+
+Agilidade — equipes podem desenvolver novas funcionalidades mais rápido, cada uma focando no seu serviço.
+
+Quanto à comunicação entre serviços, os microsserviços podem interagir utilizando HTTP (REST), comunicação por mensagens (como filas) e comunicação orientada a eventos, gRPC, etc... permitindo integração flexível e tolerância a falhas.
